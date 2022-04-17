@@ -27,4 +27,4 @@ colorscheme gruvbox
 let NERDTreeShowHidden = 1
 noremap <F6> :NERDTreeRefreshRoot<CR> :NERDTreeToggle<CR>
 nnoremap <F5> ::w!<CR>:bo split<CR>:term python %<CR>
-nnoremap <F7> ::w!<CR>:bo split<CR>:cargo run<CR>
+nnoremap <F7> ::w!<CR>:bo split<CR>:term cargo run<CR>
